@@ -1,7 +1,7 @@
 /* Colores */
 
 :root {
-    --bg_main: #0a1f44;
+    --bg_main: #0076ad;
     --text_light: #fff;
     --text_med: #53627c;
     --text_dark: #000000;
@@ -192,6 +192,17 @@ h1 {
     font-size: 1rem;
     color: var(--text_light);
     margin-top: 40px;
+}
+
+.page-footer a {
+    color: var(--text_light);
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+    font-size: larger;
+}
+
+.page-footer a:hover {
+    color: var(--red);
 }
 
 .page-footer span {
